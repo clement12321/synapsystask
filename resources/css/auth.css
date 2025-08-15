@@ -1,0 +1,117 @@
+:global(body) {
+    margin: 0;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    background-image: url('/resources/js/assets/images/sunset.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.auth-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    backdrop-filter: blur(10px);
+}
+
+.auth-header img{
+    width:50%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #002739;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #002739;
+}
+
+input {
+    width: 93%;
+    padding: 0.75rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #002739;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+input:focus, select:focus{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: #ff4343;
+    box-shadow: 0 0 8px rgba(255, 67, 67, 0.8);
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(0, 39, 57, 0.5);
+}
+
+select {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #002739;
+    font-size: 1rem;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 140 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline points='20,50 70,100 120,50' stroke='%23002739' stroke-width='15' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+select option {
+    background-color: #ffffff;
+    color: #002739;
+}
+
+.auth-button {
+    width: 50%;
+    height: 2.5rem;
+    background-color: #ff4343;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    margin: 1.5rem auto 0;
+}
+
+.auth-button:hover {
+    background-color: #002739;
+    color: #ff4343;
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: #002739;
+}
+
+.auth-link a {
+    color: #002739;
+    text-decoration: underline;
+}
