@@ -1,5 +1,4 @@
-# Synapsys Task Project
-# This is a Laravel + Vue Project with MySQL database
+# Synapsys Task Project (This is a Laravel + Vue Project with MySQL database)
 
 ## Requirements
 - PHP >= 8.x
@@ -14,7 +13,7 @@
 
 ## Installation
 1. Clone the repository
-   - git clone https://github.com/yourusername/synapsystask.git
+   - git clone https://github.com/clement12321/synapsystask.git
 2. Navigate to project folder
    - cd synapsystask
 3. Install PHP dependencies
